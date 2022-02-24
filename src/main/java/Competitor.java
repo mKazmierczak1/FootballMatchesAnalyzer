@@ -78,14 +78,6 @@ public class Competitor {
 
     @Override
     public String toString() {
-        return "Competitor {" +
-                "\nid ='" + id + '\'' +
-                ", \nname ='" + name + '\'' +
-                ", \ncountry ='" + country + '\'' +
-                ", \ncountry_name ='" + country_code + '\'' +
-                ", \nabbreviation ='" + abbreviation + '\'' +
-                ", \nqualifier ='" + qualifier + '\'' +
-                ", \ngender ='" + gender + '\'' +
-                '}';
+        return name + " (" + country + ")";
     }
 }

@@ -78,14 +78,6 @@ public class Venue {
 
     @Override
     public String toString() {
-        return "Venue {" +
-                "\nid ='" + id + '\'' +
-                ", \nname ='" + name + '\'' +
-                ", \ncapacity =" + capacity +
-                ", \ncity_name ='" + city_name + '\'' +
-                ", \ncountry_name ='" + country_name + '\'' +
-                ", \nmap_coordinates ='" + map_coordinates + '\'' +
-                ", \ncountry_code ='" + country_code + '\'' +
-                '}';
+        return "Venue: " + name;
     }
 }
